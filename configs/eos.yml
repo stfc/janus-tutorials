@@ -1,0 +1,11 @@
+struct: myname.cif
+struct-name: myname
+min-volume: 0.95
+max-volume: 1.05
+n-volumes: 11
+device: cuda
+arch: mace_mp
+calc-kwargs:
+   model: large
+minimize: True
+minimize-all: True 

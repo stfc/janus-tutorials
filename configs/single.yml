@@ -1,0 +1,6 @@
+device: cuda
+arch: mace_mp
+calc-kwargs:
+   model: large
+
+

@@ -1,0 +1,16 @@
+struct: mycool.xyz
+struct-name: 
+ensemble: nve
+device: cuda
+rotate-restart: True
+temp: 300
+timestep: 1.0
+steps: 500
+stats-every: 10
+traj-every: 10
+seed: 2024
+arch: mace_mp
+calc-kwargs:
+   model: small
+
+

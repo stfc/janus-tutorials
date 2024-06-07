@@ -1,0 +1,13 @@
+device: cuda
+fmax: 0.01
+arch: mace_mp
+steps: 100
+vectors-only: True
+calc-kwargs:
+    calc_kwargs:
+      dispersion: True
+      model: large
+minimize-kwargs:
+   filter_kwargs:
+      constant_volume: True
+traj: C4H2I2S-traj.xyz

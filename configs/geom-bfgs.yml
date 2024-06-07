@@ -1,0 +1,10 @@
+device: cuda
+fmax: 0.01
+optimizer: BFGS
+arch: mace_mp
+steps: 100
+calc-kwargs:
+    calc_kwargs:
+      dispersion: True
+      model: large
+traj: C4H2I2S-traj.xyz
