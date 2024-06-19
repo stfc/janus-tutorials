@@ -8,3 +8,9 @@ Set of tutorials to use MLIPs:
 - [Equation of State](eos.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/eos.ipynb)
 - [Phonons](phonons.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/phonons.ipynb)
 
+
+Tutorials to use MLIPs through AiiDA
+- [Setup janus code for aiida-mlip](aiida-tutorials/setup-janus-code.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/phonons.ipynb)
+- [Single point calculation](aiida-tutorials/singlepoint.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/phonons.ipynb)
+- [Geometry optimisation](aiida-tutorials/geometry-optimisation.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/phonons.ipynb)
+- [High-throughput screening](aiida-tutorials/high-throughput-screening.ipynb.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/phonons.ipynb)
