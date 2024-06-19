@@ -8,9 +8,12 @@ Set of tutorials to use MLIPs:
 - [Equation of State](eos.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/eos.ipynb)
 - [Phonons](phonons.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/stfc/janus-tutorials/blob/main/phonons.ipynb)
 
+Source code and additional documentation can be found in the [janus-core](https://github.com/stfc/janus-core) repository.
 
-Tutorials to use MLIPs through AiiDA
+Tutorials to use MLIPs through AiiDA:
 - [Setup janus code for aiida-mlip](aiida-tutorials/setup-janus-code.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janus-tutorials/blob/main/aiida-tutorials/setup-janus-code.ipynb)
 - [Single point calculation](aiida-tutorials/singlepoint.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janus-tutorials/blob/main/aiida-tutorials/singlepoint.ipynb)
 - [Geometry optimisation](aiida-tutorials/geometry-optimisation.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janus-tutorials/blob/main/aiida-tutorials/geometry-optimisation.ipynb)
 - [High-throughput screening](aiida-tutorials/high-throughput-screening.ipynb) [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/janus-tutorials/blob/main/aiida-tutorials/high-throughput-screening.ipynb)
+
+Source code and additional documentation can be found in the [aiida-mlip](https://github.com/stfc/aiida-mlip) repository.
