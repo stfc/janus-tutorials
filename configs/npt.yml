@@ -1,11 +1,11 @@
 struct: my_cool.xyz
 struct-name: mycool
 ensemble: npt
+device: cuda
 pressure: 1.01325
 thermostat-time: 50
 barostat-time: 100
 bulk-modulus: 40
-device: cuda
 rotate-restart: True
 temp: 300
 timestep: 1.0
@@ -15,6 +15,4 @@ traj-every: 10
 seed: 2024
 arch: mace_mp
 calc-kwargs:
-   model: small
-
-
+  model: small

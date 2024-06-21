@@ -6,6 +6,6 @@ n-volumes: 11
 device: cuda
 arch: mace_mp
 calc-kwargs:
-   model: large
+  model: large
 minimize: True
-minimize-all: True 
+minimize-all: True

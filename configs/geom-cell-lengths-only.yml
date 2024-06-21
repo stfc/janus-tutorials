@@ -4,6 +4,6 @@ arch: mace_mp
 steps: 100
 vectors-only: True
 calc-kwargs:
-    dispersion: True
-    model: large
+  dispersion: True
+  model: large
 traj: C4H2I2S-traj.xyz
