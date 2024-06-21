@@ -13,7 +13,6 @@ minimize: True
 minimize-kwargs:
   filter-kwargs:
     scalar_pressure: 0.5
-
 arch: mace_mp
 write-full: True
 plot-to-file: True

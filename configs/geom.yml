@@ -3,6 +3,6 @@ fmax: 0.01
 arch: mace_mp
 steps: 100
 calc-kwargs:
-    dispersion: True
-    model: large
+  dispersion: True
+  model: large
 traj: C4H2I2S-traj.xyz

@@ -12,7 +12,6 @@ dos: True
 minimize: True
 minimize-kwargs:
   filter_func: null
-
 arch: mace_mp
 write-full: True
 plot-to-file: True

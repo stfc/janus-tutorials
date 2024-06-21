@@ -5,9 +5,9 @@ pressure: 1.01325
 steps: 100
 vectors-only: True
 calc-kwargs:
-      dispersion: True
-      model: large
+  dispersion: True
+  model: large
 minimize-kwargs:
-   filter_kwargs:
-      constant_volume: True
+  filter_kwargs:
+    constant_volume: True
 traj: C4H2I2S-traj.xyz

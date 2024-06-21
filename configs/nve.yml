@@ -1,5 +1,5 @@
 struct: mycool.xyz
-struct-name: 
+struct-name:
 ensemble: nve
 device: cuda
 rotate-restart: True
@@ -11,6 +11,4 @@ traj-every: 10
 seed: 2024
 arch: mace_mp
 calc-kwargs:
-   model: small
-
-
+  model: small
