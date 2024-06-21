@@ -5,7 +5,6 @@ pressure: 1.01325
 steps: 100
 vectors-only: True
 calc-kwargs:
-    calc_kwargs:
       dispersion: True
       model: large
 minimize-kwargs:
