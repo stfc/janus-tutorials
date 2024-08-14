@@ -1,0 +1,2 @@
+mlip_config: tests/data/train.yml
+fine_tune: False

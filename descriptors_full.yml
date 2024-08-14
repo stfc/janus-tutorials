@@ -1,0 +1,15 @@
+struct: "tests/data/NaCl.cif"
+invariants_only: True
+calc_per_element: False
+arch: mace_mp
+device: cpu
+model_path: "tests/models/mace_mp_small.model"
+out: NaCl-descriptors.extxyz
+read_kwargs:
+  index: "0"
+calc_kwargs:
+  dispersion: True
+write_kwargs:
+  invalidate_calc: True
+log: descrip.log
+summary: descript.yml
