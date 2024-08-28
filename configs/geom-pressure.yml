@@ -3,7 +3,7 @@ fmax: 0.01
 arch: mace_mp
 pressure: 1.01325
 steps: 100
-vectors-only: True
+opt-cell-lengths: True
 calc-kwargs:
   dispersion: True
   model: large
