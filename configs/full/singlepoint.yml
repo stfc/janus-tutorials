@@ -1,0 +1,13 @@
+struct: "tests/data/NaCl.cif"
+arch: mace_mp
+device: cpu
+model_path: "tests/models/mace_mp_small.model"
+out: NaCl-results.extxyz
+read_kwargs:
+  index: ":"
+calc_kwargs:
+  dispersion: True
+write_kwargs:
+  invalidate_calc: False
+log: singlepoint-log.yml
+summary: singlepoint-summary.yml

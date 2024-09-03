@@ -1,0 +1,30 @@
+struct: "tests/data/NaCl.cif"
+supercell: 2x2x2
+displacement: 0.01
+bands: True
+dos: True
+pdos: True
+thermal: True
+temp_min: 0
+temp_max: 100
+temp_step: 10
+symmetrize: True
+minimize: True
+fmax: 0.01
+minimize_kwargs:
+  write_results: True
+  filter_kwargs:
+    constant_volume: False
+hdf5: True
+plot_to_file: True
+write_full: True
+arch: mace_mp
+device: cpu
+model_path: "tests/models/mace_mp_small.model"
+read_kwargs:
+  index: "0"
+calc_kwargs:
+  dispersion: True
+file_prefix: phonons
+log: phonons-log.yml
+summary: phonons-summary.yml
