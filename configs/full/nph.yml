@@ -7,7 +7,7 @@ thermostat_time: 50
 bulk_modulus: 2
 pressure: 0.01
 ensemble_kwargs:
-  mask: (1, 1, 1)
+  mask: [1, 1, 1]
 arch: mace_mp
 device: cpu
 model_path: "tests/models/mace_mp_small.model"
@@ -44,7 +44,7 @@ temp_step: 10
 temp_time: 1
 write_kwargs:
   invalidate_calc: True
-post_process_kwargs: None
+post_process_kwargs: null
 seed: 1000
 log: nph-log.yml
 summary: nph-summary.yml

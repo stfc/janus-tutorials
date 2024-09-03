@@ -7,7 +7,8 @@ minimize: True
 minimize_all: True
 fmax: 0.01
 minimize_kwargs:
-  write_results: True
+  filter_kwargs:
+    constant_volume: True
 write_structures: True
 write_kwargs:
   invalidate_calc: True
