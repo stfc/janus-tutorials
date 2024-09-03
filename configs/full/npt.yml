@@ -47,5 +47,5 @@ write_kwargs:
   invalidate_calc: True
 post_process_kwargs: None
 seed: 1000
-log: npt-log.summary
+log: npt-log.yml
 summary: npt-summary.yml
