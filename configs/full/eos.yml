@@ -9,6 +9,8 @@ fmax: 0.01
 minimize_kwargs:
   write_results: True
 write_structures: True
+write_kwargs:
+  invalidate_calc: True
 arch: mace_mp
 device: cpu
 model_path: "tests/models/mace_mp_small.model"
@@ -17,5 +19,5 @@ read_kwargs:
 calc_kwargs:
   dispersion: True
 file_prefix: eos
-log: eos.log
-summary: eos.yml
+log: eos-log.yml
+summary: eos-summary.yml

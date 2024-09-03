@@ -11,5 +11,5 @@ calc_kwargs:
   dispersion: True
 write_kwargs:
   invalidate_calc: True
-log: descrip.log
-summary: descript.yml
+log: descriptors-log.yml
+summary: descriptors-summary.yml

@@ -1,23 +1,23 @@
 struct: "tests/data/NaCl.cif"
 supercell: 2x2x2
 displacement: 0.01
-thermal: True
-temp_start: 0
-temp_end: 100
-temp_step: 10
 bands: True
-hdf5: True
-plot_to_file: True
 dos: True
 pdos: True
-minimize: True
+thermal: True
+temp_min: 0
+temp_max: 100
+temp_step: 10
 symmetrize: True
-write_full: True
+minimize: True
 fmax: 0.01
 minimize_kwargs:
   write_results: True
   filter_kwargs:
     constant_volume: False
+hdf5: True
+plot_to_file: True
+write_full: True
 arch: mace_mp
 device: cpu
 model_path: "tests/models/mace_mp_small.model"
@@ -26,5 +26,5 @@ read_kwargs:
 calc_kwargs:
   dispersion: True
 file_prefix: phonon
-log: phonon.log
-summary: phonon.yml
+log: phonon-log.yml
+summary: phonon-summary.yml

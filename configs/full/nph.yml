@@ -26,14 +26,15 @@ remove_rot: True
 rescale_every: 50
 file_prefix: nve
 restart: False
-restart_stem: nve-restart
+restart_auto: True
+restart_stem: nph-res
 restart_every: 1000
 rotate_restart: True
 restarts_to_keep: 2
-final_file: nve-final.extxyz
-stats_file: nve-stats.dat
+final_file: nph-final.extxyz
+stats_file: nph-stats.dat
 stats_every: 100
-traj_file: nve-traj.extxyz
+traj_file: nph-traj.extxyz
 traj_append: False
 traj_start: 1000
 traj_every: 100
@@ -44,6 +45,6 @@ temp_time: 1
 write_kwargs:
   invalidate_calc: True
 post_process_kwargs: None
-log: nve.log
 seed: 1000
-summary: nve.summary
+log: nph-log.yml
+summary: nph-summary.yml

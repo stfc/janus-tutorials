@@ -27,6 +27,7 @@ remove_rot: True
 rescale_every: 50
 file_prefix: npt
 restart: False
+restart_auto: True
 restart_stem: npt-restart
 restart_every: 1000
 rotate_restart: True
@@ -45,6 +46,6 @@ temp_time: 1
 write_kwargs:
   invalidate_calc: True
 post_process_kwargs: None
-log: npt.log
 seed: 1000
-summary: npt.summary
+log: npt-log.summary
+summary: npt-summary.yml

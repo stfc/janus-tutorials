@@ -9,5 +9,5 @@ calc_kwargs:
   dispersion: True
 write_kwargs:
   invalidate_calc: False
-log: sp.log
-summary: sp.yml
+log: singlepoint-log.yml
+summary: singlepoint-summary.yml
