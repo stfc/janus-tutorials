@@ -1,4 +1,0 @@
-mlip_config: tests/data/train.yml
-fine_tune: False
-log: train-log.yml
-summary: train-summary.yml

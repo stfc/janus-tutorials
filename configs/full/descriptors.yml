@@ -8,7 +8,7 @@ out: NaCl-descriptors.extxyz
 read_kwargs:
   index: "0"
 calc_kwargs:
-  dispersion: True
+  dispersion: False
 write_kwargs:
   invalidate_calc: True
 log: descriptors-log.yml

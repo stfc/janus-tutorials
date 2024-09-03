@@ -8,14 +8,14 @@ barostat_time: 75
 bulk_modulus: 2
 pressure: 0.001
 ensemble_kwargs:
-  mask: (1, 1, 1)
+  mask: [1, 1, 1]
 arch: mace_mp
 device: cpu
 model_path: "tests/models/mace_mp_small.model"
 read_kwargs:
   index: "0"
 calc_kwargs:
-  dispersion: True
+  dispersion: False
 equil_steps: 100
 minimize: True
 minimize_every: 50
@@ -45,7 +45,7 @@ temp_step: 10
 temp_time: 1
 write_kwargs:
   invalidate_calc: True
-post_process_kwargs: None
+post_process_kwargs: null
 seed: 1000
 log: npt-log.yml
 summary: npt-summary.yml

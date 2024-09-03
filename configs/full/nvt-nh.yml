@@ -5,7 +5,7 @@ timestep: 0.1
 temp: 100
 thermostat_time: 50
 ensemble_kwargs:
-  mask: (1, 1, 1)
+  mask: [1, 1, 1]
 arch: mace_mp
 device: cpu
 model_path: "tests/models/mace_mp_small.model"
@@ -42,7 +42,7 @@ temp_step: 10
 temp_time: 1
 write_kwargs:
   invalidate_calc: True
-post_process_kwargs: None
+post_process_kwargs: null
 seed: 1000
 log: nvt-nh-log.yml
 summary: nvt-nh-summary.yml

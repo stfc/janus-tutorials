@@ -41,7 +41,7 @@ temp_step: 10
 temp_time: 1
 write_kwargs:
   invalidate_calc: True
-post_process_kwargs: None
+post_process_kwargs: null
 seed: 1000
 log: nve-log.yml
 summary: nve-summary.yml
