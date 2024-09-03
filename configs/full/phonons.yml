@@ -25,6 +25,6 @@ read_kwargs:
   index: "0"
 calc_kwargs:
   dispersion: True
-file_prefix: phonon
-log: phonon-log.yml
-summary: phonon-summary.yml
+file_prefix: phonons
+log: phonons-log.yml
+summary: phonons-summary.yml
